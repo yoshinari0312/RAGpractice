@@ -1,1 +1,3 @@
-# RAGpractice
+RAGをFAISSで実装
+create_dbでマニュアルデータをエンべディングし、faissファイルを作成。
+FAISS2.pyで質問との類似度からマニュアルの情報をプロンプトとして追加し、openAI APIを叩き、回答を得る。
