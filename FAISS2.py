@@ -1,7 +1,6 @@
 from openai import OpenAI
 import os
 from langchain_openai import OpenAIEmbeddings
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))

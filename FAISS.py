@@ -2,7 +2,6 @@ from openai import OpenAI
 import numpy as np
 import os
 from langchain_openai import OpenAIEmbeddings
-from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS, Qdrant
 from langchain.schema import Document
